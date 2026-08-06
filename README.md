@@ -40,4 +40,6 @@ Clinical examples use [TonicAI/synthetic_clinical_notes](https://huggingface.co/
 (generated structure-first with Tonic Fabricate). Both datasets are fully synthetic — no real
 patient data appears anywhere in these cookbooks.
 The retail-agent cookbook generates its entire environment (users, orders, products,
-scenarios) live in Fabricate — every record is synthetic.
+scenarios) live in Fabricate — every record is synthetic. The frozen reference world from
+the published run is available as
+[TonicAI/synthetic_retail_policy_environment](https://huggingface.co/datasets/TonicAI/synthetic_retail_policy_environment).
